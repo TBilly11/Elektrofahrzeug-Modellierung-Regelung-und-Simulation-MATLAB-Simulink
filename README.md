@@ -252,12 +252,12 @@ Response speed of the ACC:  <br/>
 
  In this use case, the initial distances between vehicle B and vehicle A are proportional to
  time, resulting in very large distances at the start. However, to avoid interception on bends,
- the distance between the vehicles changes direction as vehicle A is faster than vehicle B (as
- shown in Figure 6.4). At this point, adaptive cruise control (ACC) is activated, and vehicle A
+ the distance between the vehicles changes direction as vehicle A is faster than vehicle B.
+ At this point, adaptive cruise control (ACC) is activated, and vehicle A
  maintains the reference speed (speed ref ).
  When the distance between the vehicles falls below the threshold set by the switching logic,
- distance control is activated. This mechanism automatically slows down vehicle A (as illustrated
- in Figure 6.5). Interestingly, this also reduces the reference distance, as it depends on the speed
+ distance control is activated. This mechanism automatically slows down vehicle A. 
+ Interestingly, this also reduces the reference distance, as it depends on the speed
  of vehicle A (VA)
  
  <br />
