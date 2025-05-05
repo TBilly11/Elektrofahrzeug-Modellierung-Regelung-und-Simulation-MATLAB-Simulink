@@ -229,6 +229,10 @@ Adaptive Cruise Control (ACC) is an advanced enhancement of traditional cruise c
  <br />
 <img src="https://i.imgur.com/0TYEbSl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
+  <br />
+<img src="https://i.imgur.com/JjqJnii.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+ 
 The following picture illustrates the controller structure and closed-loop control system for adaptive
  cruise control (ACC). In this model, the input signal ∆Xref, which corresponds to half the
  reference speed ref velocity/2, represents the currently measured distance between vehicles.
