@@ -2,7 +2,7 @@
 <h1>1 Project presentation</h1>
 
 <br />
-<img src="https://i.imgur.com/dsJSKCv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dsJSKCv.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
 <br />
  The aim of this project is to develop a control system for an electric vehicle using MATLAB/Simulink.
  The initial phase focuses on modeling the longitudinal dynamics of the vehicle by applying
@@ -38,13 +38,13 @@
   - Speed Control: The methods used to maintain or adjust the vehicle’s speed to meet
  desired performance requirements.
 <br />
-<img src="https://i.imgur.com/0z6yt3a.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/KpVo1jO.png" height="80%" width="40%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/pQOm8Yd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/0z6yt3a.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KpVo1jO.png" style="max-width:40%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/pQOm8Yd.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
 
 The equation is scaled by mF and constructed as a longitudinal dynamics model in Simulink, the model is organized into a subsystem to ensure a clear and orderly
  representation of the simulation.
-<img src="https://i.imgur.com/gG45sLp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gG45sLp.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
  
  
 
@@ -59,12 +59,12 @@ The equation is scaled by mF and constructed as a longitudinal dynamics model in
  stationary since no forces are acting on it, resulting in zero values for position, speed, and
  the acceleration is zero values.<br />
 <br />
-<img src="https://i.imgur.com/5XcYiYJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5XcYiYJ.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
 <br />
 
    - The model was been simulated with TW = 300 Nm and FB = 0 N over a duration of 1000s <br />
    <br />
-<img src="https://i.imgur.com/Q1JA47w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Q1JA47w.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
 <br />
 
  Figure illustrates that the car’s speed increases when a torque value (TW) is applied
@@ -77,17 +77,9 @@ The equation is scaled by mF and constructed as a longitudinal dynamics model in
     
 <h2>3 Cruise control (Speed control) </h2>
 
- <br />
-<img src="https://i.imgur.com/iiwct08.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-
- <br />
-<img src="https://i.imgur.com/0SZkGmG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-
-<br />
-<img src="https://i.imgur.com/zBJJsam.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
+<img src="https://i.imgur.com/iiwct08.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/0SZkGmG.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/zBJJsam.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
 
  The PI control system for Vehicle A exhibits the characteristics of a delayed second-order
  system with no overshoot and a rapid response to the reference speed of 100 km/h (27.7 m/s). This
@@ -97,12 +89,12 @@ The equation is scaled by mF and constructed as a longitudinal dynamics model in
  The following picture show the step response of Longside dynamics using the PI-Controller with the speed reference <br />
  
 <br />
-<img src="https://i.imgur.com/urWmlIP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/urWmlIP.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
 <br />
 
 <h2>4 PMSM </h2>
  <br />
-<img src="https://i.imgur.com/DesxBA5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DesxBA5.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
 <br />
 
 The permanent magnets generate a constant magnetic field in the rotor, which follows the
@@ -113,8 +105,8 @@ The permanent magnets generate a constant magnetic field in the rotor, which fol
  by nonlinear differential equations.
 
  <br />
-<img src="https://i.imgur.com/7oLM4zm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/WBkmfc6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7oLM4zm.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/WBkmfc6.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
 <br />
  In this context, Ld, Lq, and RS represent the inductances and resistance of the stator,
  respectively. The symbols vS,d, vS,q, iS,d, and iS,q denote the d- and q-axis components of the
@@ -122,17 +114,13 @@ The permanent magnets generate a constant magnetic field in the rotor, which fol
  the rotor’s permanent magnet flux. Using the Laplace transform, these current equations can
  be expressed as follows:
  <br />
-<img src="https://i.imgur.com/J4LEeQ2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/J4LEeQ2.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
 <br />
 
 <h2>4.1 Modelling of PMSM </h2>
- <br />
-<img src="https://i.imgur.com/FURsN3b.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
+<img src="https://i.imgur.com/FURsN3b.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/oAyoHgC.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
 
- <br />
-<img src="https://i.imgur.com/oAyoHgC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
 
 <h2>4.2 Drive Control of PMSM </h2>
  Drive control is crucial for optimizing the performance and efficiency of Permanent Magnet
@@ -143,21 +131,13 @@ The permanent magnets generate a constant magnetic field in the rotor, which fol
  the torque of the PMSM, when designed as a full-pole machine, can be easily controlled similarly
  to a DC machine via a component of the stator current.
  <br />
-<img src="https://i.imgur.com/fSWKIDi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/fSWKIDi.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
 <br />
 The decoupling controller has been implemented in MATLAB/Simulink as follows:
 
- <br />
-<img src="https://i.imgur.com/wM6jsFX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-
- <br />
-<img src="https://i.imgur.com/YgSBYnM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-
- <br />
-<img src="https://i.imgur.com/4tRn1b3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <br />
+<img src="https://i.imgur.com/wM6jsFX.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/YgSBYnM.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4tRn1b3.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
 
 The following picture illustrates the results of the q-axis current control. The blue curve represents
  the controlled current response. As shown, the controlled current reacts immediately to changes,
@@ -167,7 +147,7 @@ The following picture illustrates the results of the q-axis current control. The
  of the current.
 
  <br />
-<img src="https://i.imgur.com/7bKME88.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7bKME88.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
  <br />
 
  The following picture illustrates the position, speed, and acceleration signals of the vehicle. As the
@@ -180,7 +160,7 @@ The following picture illustrates the results of the q-axis current control. The
 
 
  <br />
-<img src="https://i.imgur.com/eWGNQpS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/eWGNQpS.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
  <br />
  <br />
 
@@ -202,36 +182,22 @@ Adaptive Cruise Control (ACC) is an advanced enhancement of traditional cruise c
  deriving the transfer function and reference model, we will analyze the system’s behavior and
  simulate it using MATLAB/Simulink.
 
- <br />
-<img src="https://i.imgur.com/5Hjb31e.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <br />
-
-  <br />
-<img src="https://i.imgur.com/ypsTn3v.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <br />
+<img src="https://i.imgur.com/5Hjb31e.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ypsTn3v.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
 
 
 
 
- The following diagram depicts the controller with the dynamics of the controlled system:
- <br />
-<img src="https://i.imgur.com/o5fBOn6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <br />
-
-
- <br />
-<img src="https://i.imgur.com/dCsF72y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <br />
+The following diagram depicts the controller with the dynamics of the controlled system:
+ 
+<img src="https://i.imgur.com/o5fBOn6.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dCsF72y.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
 
 
 <h2>5.1 Simulations Results of the ACC </h2>
 
- <br />
-<img src="https://i.imgur.com/0TYEbSl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <br />
-  <br />
-<img src="https://i.imgur.com/JjqJnii.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <br />
+<img src="https://i.imgur.com/0TYEbSl.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/JjqJnii.jpeg" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
  
 The following picture illustrates the controller structure and closed-loop control system for adaptive
  cruise control (ACC). In this model, the input signal ∆Xref, which corresponds to half the
@@ -245,13 +211,9 @@ The following picture illustrates the controller structure and closed-loop contr
  dynamically adjusts the distance between the vehicles, ensuring a safe gap by taking into  account the difference in distance ∆x between the two cars. <br />
  <br />
  <br />
- Response Distance of the ACC:  <br/>
-<img src="https://i.imgur.com/LQoz4FM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <br />
-<br />
-Response speed of the ACC:  <br/>
-<img src="https://i.imgur.com/hts4lN3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <br />
+ Response Distance of the ACC:  
+<img src="https://i.imgur.com/LQoz4FM.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hts4lN3.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
 
 
  In this use case, the initial distances between vehicle B and vehicle A are proportional to
@@ -265,5 +227,5 @@ Response speed of the ACC:  <br/>
  of vehicle A (VA)
  
  <br />
-<img src="https://i.imgur.com/uhPCBHN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/uhPCBHN.png" style="max-width:100%; height:auto; display:block; margin:auto;" alt="Disk Sanitization Steps"/>
  <br />
